@@ -1,7 +1,10 @@
+// This code sets up a web server on the ESP32 and listens for incoming HTTP requests. 
+// When it receives a request, it checks if the request URL is "/on" or "/off" and turns
+
 #include <WiFi.h>
 
-const char* ssid = "your-ssid";
-const char* password = "your-password";
+const char* ssid = "ssid";
+const char* password = "password";
 
 int relayPin = 4; // GPIO pin where the relay is connected
 
