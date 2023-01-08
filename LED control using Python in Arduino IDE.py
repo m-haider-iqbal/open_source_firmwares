@@ -16,3 +16,13 @@ for i in range(10):
 
 # Turn the LED off
 led.value = False
+
+'''
+This code will flash the LED connected to pin D13 on the board 10 times, 
+with a delay of 0.5 seconds between each on and off cycle.
+
+To use this code, you will need to install the necessary libraries (board and digitalio) and 
+connect an LED to pin D13 on your board. You will also need 
+to upload the code to your board using the Arduino IDE.
+
+'''
